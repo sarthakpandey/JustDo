@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Just Do</string>
+    <string-array name="task_type" >
+        <item>Wake Up</item>
+        <item>Play</item>
+        <item>Work</item>
+        <item>Food</item>
+        <item>Prayer</item>
+        <item>Project</item>
+        <item>Travel</item>
+    </string-array>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>

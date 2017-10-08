@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Note"
+        android:gravity="center_horizontal"
+        android:padding="18dp"
+        android:textStyle="bold"
+        android:textSize="24dp"/>
+
+    <EditText
+        android:id="@+id/editNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Type"
+        android:gravity="center_horizontal"
+        android:padding="18dp"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <Spinner
+        android:id="@+id/editType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:spinnerMode="dropdown"
+        ></Spinner>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_weight="0.5"
+            android:text="Date :"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/editDate"
+            android:layout_width="0px"
+            android:layout_weight="0.5"
+            android:padding="10dp"
+            android:hint="Select Date"
+            android:clickable="true"
+            android:layout_marginRight="15dp"
+            android:editable="false"
+            android:focusable="false"
+            android:textStyle="italic"
+
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_weight="0.5"
+            android:text="Time :"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/editTime"
+            android:layout_width="0px"
+            android:layout_weight="0.5"
+            android:padding="10dp"
+            android:layout_marginRight="15dp"
+            android:hint="Select Time"
+            android:clickable="true"
+            android:editable="false"
+            android:focusable="false"
+            android:textStyle="italic"
+
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>
